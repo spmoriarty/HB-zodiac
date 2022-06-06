@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       {/* import and use the Header. Main, and Footer components here */}
       <Header />
-      <Main key={zodiac}/>
+      <Main zodiacs={zodiac}/>
       <Footer />
 
     </div>

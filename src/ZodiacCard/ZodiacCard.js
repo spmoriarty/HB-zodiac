@@ -4,10 +4,9 @@ export default function ZodiacCard({ name, dates }) {
     <div className='zodiac-card'>
       <h1>{name}</h1>
       <p>{dates}</p>
-      <img src = {/images/`${name}`.png} />
-      {/* <img>{ public/images/`${name}`.png}</img> */}
+      <img src = {`/images/${name}.png`} />
     </div>
   );
-  // public/images/aquarius.png
+  
 }
 
