@@ -3,6 +3,6 @@ import './Header.css';
 
 
 
-export default function Header(zodiac) {
-  return <header>Alchemy Astrology, by {zodiac.name}</header>;
+export default function Header({ name }) {
+  return <header>{name}</header>;
 }

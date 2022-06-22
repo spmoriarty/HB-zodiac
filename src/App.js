@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       {/* import and use the Header. Main, and Footer components here */}
-      <Header />
+      <Header name='Sean Moriarty'/>
       <Main zodiacs={zodiac}/>
-      <Footer />
+      <Footer year='2022' />
 
     </div>
   );
